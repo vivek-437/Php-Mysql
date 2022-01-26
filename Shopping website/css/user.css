@@ -1,0 +1,98 @@
+.grid {
+    /* height: 100vh; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 25rem;
+    height: 30rem;
+    background-color: bisque;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.proimg {
+    margin-top: 2rem;
+    height: 4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.proimg #imglet {
+    font-size: 1.5rem;
+    color: blanchedalmond;
+}
+
+#proimgsr {
+    background-color: rgb(12, 12, 12);
+    height: 100%;
+    display: grid;
+    width: 4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.dscol {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.usrprodata {
+    margin-top: 2rem;
+}
+
+.prusername input,
+.premail input,
+.prbirth input,
+.prhobby input {
+    box-sizing: border-box;
+    height: 2.5rem;
+    width: 80%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: .5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    padding-left: 3.7rem;
+}
+
+.prhobby input {
+    padding-left: 3.2rem;
+}
+
+.prusername i,
+.premail i,
+.prbirth i,
+.prhobby i {
+    font-size: 1.3rem;
+    position: relative;
+    left: 3rem;
+}
+
+.pbtn button {
+    height: 2.5rem;
+    width: 4.5rem;
+    margin-left: 20%;
+    outline: none;
+    border: none;
+    color: blanchedalmond;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pbtn {
+    margin-top: 2rem;
+}

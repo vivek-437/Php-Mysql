@@ -1,0 +1,217 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.navbar {
+  height: 4rem;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  position: sticky;
+  box-sizing: border-box;
+  display: flex;
+}
+.navbar #imgsr {
+  float: right;
+  cursor: pointer;
+  margin-right: 2rem;
+  display: flex;
+  position: relative;
+  top: 13px;
+}
+.navbar .search-bar i {
+  position: relative;
+  top: 5px;
+}
+.navbar .search-bar #getinput {
+  height: 2.5rem;
+  width: 50%;
+  float: right;
+  font-size: 1.2rem;
+  outline: none;
+  box-shadow: none;
+  font-weight: bold;
+  z-index: 1;
+}
+.navbar .search-bar #getinpu:active {
+  outline: none;
+  box-shadow: none;
+}
+.navbar .search-bar {
+  width: 80%;
+  margin-top: 0.7rem;
+}
+#size {
+  background-color: bisque;
+  height: 2.3rem;
+  padding-left: 5px;
+  float: right;
+  position: relative;
+  width: 2rem;
+  font-size: 1.5rem;
+  left: -2rem;
+  top: 1px;
+  cursor: pointer;
+  z-index: 2;
+}
+.navbar #imgsr #letter {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: bisque;
+  font-weight: bold;
+  position: relative;
+  /* top: -15px; */
+}
+.navbar .logo {
+  width: 130px;
+  font-size: 1.5rem;
+  color: bisque;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navbar #imgsr #key {
+  font-size: 1.5rem;
+  color: rgb(58, 58, 58);
+  position: relative;
+  left: 9px;
+  text-transform: uppercase;
+  top: 2.5px;
+}
+.navbar #imgsr i {
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+#down {
+  width: 150px;
+  background-color: rgb(121, 118, 115);
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-right: 2rem;
+  padding: 10px;
+  box-shadow: -2px 5px 8px white;
+  border-radius: 8px;
+  position: absolute;
+  right: 1rem;
+  height: 170px;
+  z-index: 1;
+}
+
+#down .link {
+  padding: 2px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+#down .line {
+  height: 1px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #000;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+.productdata {
+  box-sizing: border-box;
+  margin: 2rem;
+  height: 24rem;
+  background-color: white;
+  width: 18rem;
+  border-radius: 5px;
+  /* position: fixed; */
+  color: rgb(32, 32, 32);
+  box-sizing: border-box;
+}
+
+.productdata .proImg img {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.flex {
+  display: grid;
+  margin: 0 auto;
+  position: relative;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.proname {
+  /* text-align: center; */
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.Prodet {
+  height: 25%;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 5px;
+  word-wrap: break-word;
+  /* overflow-y:scroll ; */
+}
+
+.btnflex {
+  display: flex;
+}
+
+.btn button {
+  height: 2.5rem;
+  background: rgb(100, 96, 96);
+  color: black;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.buyBtn button {
+  width: 5rem;
+  margin-left: 1rem;
+}
+
+.cartBtn button {
+  width: 8.5rem;
+  margin-left: 1.8rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .flex {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+@media screen and (max-width: 1056px) {
+  .flex {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+}
+
+@media (max-width: 650px) {
+  .flex {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
